@@ -1,0 +1,5 @@
+{
+  "IntegrationName": {"S": ".NET"},
+  "Details": {"S": "Live"},
+  "Size": { "N": "100"}
+}

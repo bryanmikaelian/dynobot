@@ -1,0 +1,23 @@
+{
+  "integration-test": {
+    "Keys": [
+        {
+          "IntegrationName": {
+              "S": "MeteorJS"
+          },
+          "Details": {
+              "S": "Offline"
+          }
+        },
+        {
+          "IntegrationName": {
+              "S": "Docker"
+          },
+          "Details": {
+              "S": "Live"
+          }
+        }
+    ],
+    "ProjectionExpression": "IntegrationName"
+  }
+}
