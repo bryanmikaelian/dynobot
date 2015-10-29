@@ -1,7 +1,7 @@
 [
   {
     "Create": {
-      "IndexName": "Size",
+      "IndexName": "Size2",
       "KeySchema": [
           {
             "AttributeName": "Size",
