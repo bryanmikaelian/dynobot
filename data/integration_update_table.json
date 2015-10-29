@@ -1,0 +1,21 @@
+[
+  {
+    "Create": {
+      "IndexName": "Size",
+      "KeySchema": [
+          {
+            "AttributeName": "Size",
+            "KeyType": "HASH"
+          }
+        ],
+      "Projection": {
+        "ProjectionType": "INCLUDE",
+        "NonKeyAttributes": ["Size"]
+      },
+      "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+      }
+    }
+  }
+]
