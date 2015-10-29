@@ -1,0 +1,30 @@
+{
+  "integration-test": [
+    {
+      "PutRequest": {
+          "Item": {
+            "IntegrationName": {"S": "MeteorJS"},
+            "Details": {"S": "Offline"}
+          }
+      },
+      "PutRequest": {
+          "Item": {
+            "IntegrationName": {"S": "Windows"},
+            "Details": {"S": "Live"}
+          }
+      },
+      "PutRequest": {
+          "Item": {
+            "IntegrationName": {"S": "Python"},
+            "Details": {"S": "Offline"}
+          }
+      },
+      "PutRequest": {
+          "Item": {
+            "IntegrationName": {"S": "Play Framework"},
+            "Details": {"S": "Live"}
+          }
+      }
+    }
+  ]
+}

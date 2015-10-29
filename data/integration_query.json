@@ -1,0 +1,8 @@
+{
+    "Details": {
+        "AttributeValueList": [
+            { "S": "Offline" }
+        ],
+        "ComparisonOperator": "EQ"
+    }
+}
