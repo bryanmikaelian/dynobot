@@ -1,0 +1,10 @@
+[
+  {
+    "AttributeName": "Name",
+    "AttributeType": "S"
+  },
+  {
+    "AttributeName": "ShortDesc",
+    "AttributeType": "S"
+  }
+]

@@ -17,6 +17,47 @@
               "S": "Live"
           }
         }
+        ,
+        {
+          "IntegrationName": {
+              "S": "Nginx"
+          },
+          "Details": {
+              "S": "Live"
+          }
+        },
+        {
+          "IntegrationName": {
+              "S": "Redis"
+          },
+          "Details": {
+              "S": "Live"
+          }
+        },
+        {
+          "IntegrationName": {
+              "S": "Play Framework"
+          },
+          "Details": {
+              "S": "Live"
+          }
+        },
+        {
+          "IntegrationName": {
+              "S": "Docker2"
+          },
+          "Details": {
+              "S": "Live"
+          }
+        },
+        {
+          "IntegrationName": {
+              "S": ".NET"
+          },
+          "Details": {
+              "S": "Live"
+          }
+        }
     ],
     "ProjectionExpression": "IntegrationName"
   }

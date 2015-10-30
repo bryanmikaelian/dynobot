@@ -1,0 +1,10 @@
+[
+  {
+    "AttributeName": "Name",
+    "KeyType": "HASH"
+  },
+  {
+    "AttributeName": "ShortDesc",
+    "KeyType": "RANGE"
+  }
+]
